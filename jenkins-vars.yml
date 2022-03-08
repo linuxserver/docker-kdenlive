@@ -7,6 +7,7 @@ custom_version_command: "curl -sX GET http://archive.ubuntu.com/ubuntu/dists/jam
 release_type: stable
 release_tag: latest
 ls_branch: master
+armhf_native: true
 repo_vars:
   - BUILD_VERSION_ARG = 'KDENLIVE_VERSION'
   - LS_USER = 'linuxserver'
