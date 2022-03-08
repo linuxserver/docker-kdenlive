@@ -1,0 +1,100 @@
+---
+
+# project information
+project_name: kdenlive
+project_url: "https://kdenlive.org/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png"
+project_blurb: "[Kdenlive]({{ project_url }}) is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb_optional_extras_enabled: false
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# development version
+development_versions: false
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London" }
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "3000", internal_port: "3000", port_desc: "Kdenlive desktop gui" }
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "SUBFOLDER", env_value: "/", desc: "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"}
+  - { env_var: "KEYBOARD", env_value: "en-us-qwerty", desc: "See the keyboard layouts section for more information and options."}
+opt_custom_params:
+  - { name: "shm-size", name_compose: "shm_size", value: "1gb",desc: "This might be needed to prevent crashing" }
+opt_param_device_map: true
+opt_param_devices:
+  - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Add this for hardware acceleration (Linux hosts only)" }
+opt_security_opt_param: true
+opt_security_opt_param_vars:
+  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, this is required on arm platforms." }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The application can be accessed at:
+  * http://yourhost:3000/
+  
+  By default the user/pass is abc/abc, if you change your password or want to login manually to the GUI session for any reason use the following link:
+  
+  * http://yourhost:3000/?login=true
+  
+  You can also force login on the '/' path without this parameter by passing the environment variable `-e AUTO_LOGIN=false`.
+
+  ## Hardware Acceleration (x86_64 only)
+  
+  In order to perform hardware transcoding you will need to mount a video device into the container. Some of the default hardware rendering/transcode profiles will point to devices in /dev/dri for `vaapi_device`. Make sure the profile you are using points to the correct device in the container. IE if you have intel integrated graphics along with an Nvdia or AMD video card you might have renderD128, renderD129, etc. To check which device is which use vainfo from inside the container: (right click the desktop and open xterm)
+  
+  ```
+  vainfo --display drm --device /dev/dri/renderD128
+  ```
+  
+  ### Intel/ATI/AMD
+  
+  To leverage hardware acceleration you will need to mount /dev/dri video device inside of the conainer.
+  ```
+  --device=/dev/dri:/dev/dri
+  ```
+  We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
+
+  ### Nvidia
+  
+  Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
+  https://github.com/NVIDIA/nvidia-docker
+  
+  We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the container.
+  
+  #### Keyboard Layouts
+  
+  This should match the layout on the computer you are accessing the container from.
+  The keyboard layouts available for use are:
+  * da-dk-qwerty- Danish keyboard
+  * de-ch-qwertz- Swiss German keyboard (qwertz)
+  * de-de-qwertz- German keyboard (qwertz) - **OSK available**
+  * en-gb-qwerty- English (UK) keyboard
+  * en-us-qwerty- English (US) keyboard - **OSK available** **DEFAULT**
+  * es-es-qwerty- Spanish keyboard - **OSK available**
+  * fr-ch-qwertz- Swiss French keyboard (qwertz)
+  * fr-fr-azerty- French keyboard (azerty) - **OSK available**
+  * it-it-qwerty- Italian keyboard - **OSK available**
+  * ja-jp-qwerty- Japanese keyboard
+  * pt-br-qwerty- Portuguese Brazilian keyboard
+  * sv-se-qwerty- Swedish keyboard
+  * tr-tr-qwerty- Turkish-Q keyboard
+
+# changelog
+changelogs:
+  - { date: "07.03.22:", desc: "Initial release." }
