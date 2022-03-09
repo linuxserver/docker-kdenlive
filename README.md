@@ -175,7 +175,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /config` | Users home directory in the container, stores local files and settings |
 | `--device /dev/dri` | Add this for hardware acceleration (Linux hosts only) |
 | `--shm-size=` | This might be needed to prevent crashing |
-| `--security-opt seccomp=unconfined` | For Docker Engine only, this is required on arm platforms. |
+| `--security-opt seccomp=unconfined` | For Docker Engine only, this may be required depending on your Docker and storage configuration. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -286,4 +286,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.03.22:** - Update seccomp explanation.
 * **07.03.22:** - Initial release.

@@ -40,7 +40,7 @@ opt_param_devices:
   - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Add this for hardware acceleration (Linux hosts only)" }
 opt_security_opt_param: true
 opt_security_opt_param_vars:
-  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, this is required on arm platforms." }
+  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, this may be required depending on your Docker and storage configuration." }
 
 # application setup block
 app_setup_block_enabled: true
@@ -97,4 +97,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.03.22:", desc: "Update seccomp explanation." }
   - { date: "07.03.22:", desc: "Initial release." }
