@@ -590,8 +590,8 @@ libsz21.0.6-1
 libtag1v51.11.1+dfsg.1-3ubuntu3
 libtag1v5-vanilla1.11.1+dfsg.1-3ubuntu3
 libtasn1-64.18.0-4
-libtbb22020.3-1ubuntu2
-libtbbmalloc22020.3-1ubuntu2
+libtbb22020.3-1ubuntu3
+libtbbmalloc22021.5.0-7ubuntu2
 libtdb11.4.5-2build1
 libtesseract44.1.1-2.1build1
 libthai00.1.29-1
