@@ -4,7 +4,7 @@ apparmor3.0.4-2ubuntu2
 apt2.4.5
 apt-transport-https2.4.5
 apt-utils2.4.5
-base-files12ubuntu3
+base-files12ubuntu4
 base-passwd3.5.52build1
 bash5.1-6ubuntu1
 breeze4:5.24.4-0ubuntu1
@@ -26,7 +26,7 @@ debconf1.5.79ubuntu1
 debianutils5.5-1ubuntu2
 diffutils1:3.8-0ubuntu2
 dirmngr2.2.27-3ubuntu2
-distro-info-data0.52
+distro-info-data0.52ubuntu0.1
 docker-ce-cli5:20.10.14~3-0~ubuntu-bionic
 dpkg1.21.1ubuntu2
 e2fsprogs1.46.5-2ubuntu1
@@ -201,7 +201,7 @@ libfreerdp2-22.6.1+dfsg1-3ubuntu1
 libfreerdp-client2-22.6.1+dfsg1-3ubuntu1
 libfreetype62.11.1+dfsg-1build1
 libfreexl11.0.6-1
-libfribidi01.0.8-2ubuntu3
+libfribidi01.0.8-2ubuntu3.1
 libfuse22.9.9-5ubuntu3
 libfuse3-33.10.5-1build1
 libfyba04.1.1-7
@@ -268,8 +268,8 @@ libigdgmm1222.1.2+ds1-1
 libilmbase252.5.7-2
 libimlib21.7.4-1build1
 libimobiledevice61.3.0-6build3
-libinput101.20.0-1
-libinput-bin1.20.0-1
+libinput101.20.0-1ubuntu0.1
+libinput-bin1.20.0-1ubuntu0.1
 libinstpatch-1.0-21.1.6-1
 libip4tc21.8.7-1ubuntu5
 libisl230.24-2build1
@@ -417,7 +417,7 @@ libmpg123-01.29.3-1build1
 libmplex2-2.1-01:2.1.0+debian-6build1
 libmtdev11.1.6-1build4
 libmysofa11.2.1~dfsg0-1
-libmysqlclient218.0.28-0ubuntu4
+libmysqlclient218.0.29-0ubuntu0.22.04.2
 libncurses66.3-2
 libncursesw66.3-2
 libnetcdf191:4.8.1-1
@@ -731,7 +731,7 @@ mount2.37.2-4ubuntu3
 mysql-common5.8+1.0.8
 ncurses-base6.3-2
 ncurses-bin6.3-2
-nodejs16.14.2-deb-1nodesource1
+nodejs16.15.0-deb-1nodesource1
 obconf1:2.0.4+git20150213-2build1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
