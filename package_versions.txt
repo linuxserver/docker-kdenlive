@@ -64,7 +64,7 @@ gsettings-desktop-schemas42.0-1ubuntu1
 gstreamer1.0-plugins-bad1.20.1-1ubuntu2
 gstreamer1.0-plugins-base1.20.1-1
 gstreamer1.0-plugins-good1.20.1-1ubuntu1
-gtk-update-icon-cache3.24.33-1ubuntu1
+gtk-update-icon-cache3.24.33-1ubuntu2
 guacd1.1.0-1
 gzip1.10-4ubuntu4
 hicolor-icon-theme0.17-2
@@ -248,8 +248,8 @@ libgstreamer-gl1.0-01.20.1-1
 libgstreamer-plugins-bad1.0-01.20.1-1ubuntu2
 libgstreamer-plugins-base1.0-01.20.1-1
 libgstreamer-plugins-good1.0-01.20.1-1ubuntu1
-libgtk-3-03.24.33-1ubuntu1
-libgtk-3-common3.24.33-1ubuntu1
+libgtk-3-03.24.33-1ubuntu2
+libgtk-3-common3.24.33-1ubuntu2
 libgudev-1.0-01:237-2build1
 libgupnp-1.2-11.4.3-1
 libgupnp-igd-1.0-41.2.0-1build1
@@ -277,7 +277,7 @@ libjack-jackd2-01.9.20~dfsg-1
 libjbig02.1-3.1build3
 libjpeg88c-2ubuntu10
 libjpeg-turbo82.1.2-0ubuntu1
-libjson-c50.15-2build4
+libjson-c50.15-3~ubuntu1.22.04.1
 libjson-glib-1.0-01.6.6-1build1
 libjson-glib-1.0-common1.6.6-1build1
 libk5crypto31.19.2-2
@@ -381,8 +381,8 @@ libkwalletbackend5-55.92.0-0ubuntu1
 liblapack33.10.0-2ubuntu1
 liblcms2-22.12~rc1-2build2
 libldacbt-enc22.0.2.3+git20200429+ed310a0-4
-libldap-2.5-02.5.11+dfsg-1~exp1ubuntu3
-libldap-common2.5.11+dfsg-1~exp1ubuntu3
+libldap-2.5-02.5.11+dfsg-1~exp1ubuntu3.1
+libldap-common2.5.11+dfsg-1~exp1ubuntu3.1
 liblept51.82.0-3build1
 liblilv-0-00.24.12-2
 libllvm131:13.0.1-2ubuntu2
@@ -473,7 +473,7 @@ libpangoxft-1.0-01.50.6+ds-2
 libpciaccess00.16-3
 libpcre2-16-010.39-3build1
 libpcre2-8-010.39-3build1
-libpcre32:8.39-13build5
+libpcre32:8.39-13ubuntu0.22.04.1
 libperl5.345.34.0-3ubuntu1
 libpgm-5.3-05.3.128~dfsg-2
 libpipeline11.5.5-1
@@ -578,7 +578,7 @@ libsrtp2-12.4.2-2
 libss21.46.5-2ubuntu1
 libssh-40.9.6-2build1
 libssh-gcrypt-40.9.6-2build1
-libssl33.0.2-0ubuntu1.1
+libssl33.0.2-0ubuntu1.2
 libstartup-notification00.12-6build2
 libstdc++612-20220319-1ubuntu1
 libstemmer0d2.2.0-1build1
@@ -609,7 +609,7 @@ libudfread01.1.2-1
 libunistring21.0-1
 libunwind81.3.2-2build2
 liburiparser10.9.6+dfsg-1
-libusb-1.0-02:1.0.25-1ubuntu1
+libusb-1.0-02:1.0.25-1ubuntu2
 libusbmuxd62.0.2-3build2
 libutempter01.2.1-2build2
 libuuid12.37.2-4ubuntu3
@@ -736,7 +736,7 @@ obconf1:2.0.4+git20150213-2build1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
 openssh-client1:8.9p1-3
-openssl3.0.2-0ubuntu1.1
+openssl3.0.2-0ubuntu1.2
 packagekit1.2.5-2ubuntu2
 passwd1:4.8.1-2ubuntu2
 perl5.34.0-3ubuntu1
