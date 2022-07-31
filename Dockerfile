@@ -31,7 +31,7 @@ RUN \
   SHORT=$(echo ${VOSK} |awk '{print substr($1,2); }') && \
   curl -L -o \
     /tmp/vosk-${SHORT}-py3-none-linux_x86_64.whl \
-    "https://github.com/alphacep/vosk-api/releases/download/${VOSK}/vosk-${SHORT}-py3-none-linux_x86_64.whl" && \
+    "https://github.com/alphacep/vosk-api/releases/download/${VOSK}/vosk-${SHORT}-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl" && \
   pip3 install /tmp/vosk-${SHORT}-py3-none-linux_x86_64.whl && \
   pip3 install -U \
     srt && \
