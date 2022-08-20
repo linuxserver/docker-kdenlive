@@ -4,7 +4,7 @@ apparmor3.0.4-2ubuntu2.1
 apt2.4.6
 apt-transport-https2.4.6
 apt-utils2.4.6
-base-files12ubuntu4.1
+base-files12ubuntu4.2
 base-passwd3.5.52build1
 bash5.1-6ubuntu1
 breeze4:5.24.4-0ubuntu1
@@ -134,7 +134,7 @@ libcanberra00.30-10ubuntu1
 libcap21:2.44-1build3
 libcap2-bin1:2.44-1build3
 libcap-ng00.7.9-2.2build3
-libc-bin2.35-0ubuntu3
+libc-bin2.35-0ubuntu3.1
 libcbor0.80.8.0-2ubuntu1
 libcdio192.1.0-3build1
 libcdio-cdda210.2+2.0.0-1build3
@@ -233,7 +233,7 @@ libglx01.4.0-1
 libglx-mesa022.0.5-0ubuntu0.1
 libgme00.6.3-2
 libgmp102:6.2.1+dfsg-3ubuntu1
-libgnutls303.7.3-4ubuntu1
+libgnutls303.7.3-4ubuntu1.1
 libgomp112-20220319-1ubuntu1
 libgpg-error01.43-3
 libgpgme111.16.0-1.2ubuntu4
@@ -486,7 +486,7 @@ libpolkit-gobject-1-00.105-33
 libpolkit-qt5-1-10.114.0-2
 libpoppler11822.02.0-2
 libpostproc557:4.4.2-0ubuntu0.22.04.1
-libpq514.4-0ubuntu0.22.04.1
+libpq514.5-0ubuntu0.22.04.1
 libprocps82:3.3.17-6ubuntu2
 libproj228.2.1-1
 libprotobuf233.12.4-1ubuntu7
@@ -600,8 +600,8 @@ libtheora01.1.1+dfsg.1-15ubuntu4
 libtiff54.3.0-6
 libtinfo66.3-2
 libtinyxml2-99.0.0+dfsg-3
-libtirpc31.3.2-2build1
-libtirpc-common1.3.2-2build1
+libtirpc31.3.2-2ubuntu0.1
+libtirpc-common1.3.2-2ubuntu0.1
 libtwolame00.4.0-2build2
 libuchardet00.0.7-1build2
 libudev1249.11-0ubuntu3.4
