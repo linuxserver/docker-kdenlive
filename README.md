@@ -286,5 +286,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.09.22:** - Migrate to s6v3.
 * **09.03.22:** - Update seccomp explanation.
 * **07.03.22:** - Initial release.
