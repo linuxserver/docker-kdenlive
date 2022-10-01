@@ -733,7 +733,7 @@ ncurses-base6.3-2
 ncurses-bin6.3-2
 netcat1.218-4ubuntu1
 netcat-openbsd1.218-4ubuntu1
-nodejs16.17.0-deb-1nodesource1
+nodejs16.17.1-deb-1nodesource1
 obconf1:2.0.4+git20150213-2build1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
