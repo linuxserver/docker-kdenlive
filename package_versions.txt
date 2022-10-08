@@ -66,7 +66,7 @@ gstreamer1.0-plugins-base1.20.1-1
 gstreamer1.0-plugins-good1.20.3-0ubuntu1
 gtk-update-icon-cache3.24.33-1ubuntu2
 guacd1.1.0-1
-gzip1.10-4ubuntu4
+gzip1.10-4ubuntu4.1
 hicolor-icon-theme0.17-2
 hostname3.23ubuntu2
 humanity-icon-theme0.6.16
@@ -465,14 +465,14 @@ libpam0g1.4.0-11ubuntu2
 libpam-modules1.4.0-11ubuntu2
 libpam-modules-bin1.4.0-11ubuntu2
 libpam-runtime1.4.0-11ubuntu2
-libpam-systemd249.11-0ubuntu3.4
+libpam-systemd249.11-0ubuntu3.6
 libpango-1.0-01.50.6+ds-2
 libpangocairo-1.0-01.50.6+ds-2
 libpangoft2-1.0-01.50.6+ds-2
 libpangoxft-1.0-01.50.6+ds-2
 libpciaccess00.16-3
 libpcre2-16-010.39-3ubuntu0.1
-libpcre2-8-010.39-3build1
+libpcre2-8-010.39-3ubuntu0.1
 libpcre32:8.39-13ubuntu0.22.04.1
 libperl5.345.34.0-3ubuntu1
 libpgm-5.3-05.3.128~dfsg-2
@@ -585,7 +585,7 @@ libstemmer0d2.2.0-1build1
 libsuperlu55.3.0+dfsg1-2
 libswresample37:4.4.2-0ubuntu0.22.04.1
 libswscale57:4.4.2-0ubuntu0.22.04.1
-libsystemd0249.11-0ubuntu3.4
+libsystemd0249.11-0ubuntu3.6
 libsz21.0.6-1
 libtag1v51.11.1+dfsg.1-3ubuntu3
 libtag1v5-vanilla1.11.1+dfsg.1-3ubuntu3
@@ -604,7 +604,7 @@ libtirpc31.3.2-2ubuntu0.1
 libtirpc-common1.3.2-2ubuntu0.1
 libtwolame00.4.0-2build2
 libuchardet00.0.7-1build2
-libudev1249.11-0ubuntu3.4
+libudev1249.11-0ubuntu3.6
 libudfread01.1.2-1
 libunistring21.0-1
 libunwind81.3.2-2build2
@@ -777,7 +777,7 @@ python3-lazr.restfulclient0.14.4-1
 python3-lazr.uri1.0.6-2
 python3-minimal3.10.6-1~22.04
 python3-more-itertools8.10.0-2
-python3-oauthlib3.2.0-1
+python3-oauthlib3.2.0-1ubuntu0.1
 python3-pkg-resources59.6.0-1.2
 python3-pyparsing2.4.7-1
 python3-secretstorage3.3.1-1
@@ -814,8 +814,8 @@ sound-theme-freedesktop0.8-2ubuntu1
 squashfs-tools1:4.5-3build1
 ssl-cert1.1.2
 sudo1.9.9-1ubuntu2
-systemd249.11-0ubuntu3.4
-systemd-sysv249.11-0ubuntu3.4
+systemd249.11-0ubuntu3.6
+systemd-sysv249.11-0ubuntu3.6
 sysvinit-utils3.01-1ubuntu1
 tar1.34+dfsg-1build3
 timgm6mb-soundfont1.3-5
@@ -823,7 +823,7 @@ tzdata2022c-0ubuntu0.22.04.0
 ubuntu-keyring2021.03.26
 ubuntu-mono20.10-0ubuntu2
 ucf3.0043
-udev249.11-0ubuntu3.4
+udev249.11-0ubuntu3.6
 unixodbc-common2.3.9-5
 usrmerge25ubuntu2
 util-linux2.37.2-4ubuntu3
