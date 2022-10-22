@@ -811,7 +811,7 @@ sed4.8-1ubuntu2
 sensible-utils0.0.17
 session-migration0.3.6
 shared-mime-info2.1-2
-snapd2.56.2+22.04ubuntu1
+snapd2.57.4+22.04
 software-properties-common0.99.22.3
 sound-theme-freedesktop0.8-2ubuntu1
 squashfs-tools1:4.5-3build1
