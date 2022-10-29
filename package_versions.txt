@@ -419,7 +419,7 @@ libmpg123-01.29.3-1build1
 libmplex2-2.1-01:2.1.0+debian-6build1
 libmtdev11.1.6-1build4
 libmysofa11.2.1~dfsg0-1
-libmysqlclient218.0.30-0ubuntu0.22.04.1
+libmysqlclient218.0.31-0ubuntu0.22.04.1
 libncurses66.3-2
 libncursesw66.3-2
 libnetcdf191:4.8.1-1
@@ -811,7 +811,7 @@ sed4.8-1ubuntu2
 sensible-utils0.0.17
 session-migration0.3.6
 shared-mime-info2.1-2
-snapd2.57.4+22.04
+snapd2.57.5+22.04
 software-properties-common0.99.22.3
 sound-theme-freedesktop0.8-2ubuntu1
 squashfs-tools1:4.5-3build1
