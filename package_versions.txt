@@ -736,12 +736,12 @@ ncurses-base6.3-2
 ncurses-bin6.3-2
 netcat1.218-4ubuntu1
 netcat-openbsd1.218-4ubuntu1
-nodejs16.18.0-deb-1nodesource1
+nodejs16.18.1-deb-1nodesource1
 obconf1:2.0.4+git20150213-2build1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
 openssh-client1:8.9p1-3
-openssl3.0.2-0ubuntu1.6
+openssl3.0.2-0ubuntu1.7
 packagekit1.2.5-2ubuntu2
 passwd1:4.8.1-2ubuntu2
 perl5.34.0-3ubuntu1.1
@@ -822,7 +822,7 @@ systemd-sysv249.11-0ubuntu3.6
 sysvinit-utils3.01-1ubuntu1
 tar1.34+dfsg-1build3
 timgm6mb-soundfont1.3-5
-tzdata2022c-0ubuntu0.22.04.0
+tzdata2022e-0ubuntu0.22.04.0
 ubuntu-keyring2021.03.26
 ubuntu-mono20.10-0ubuntu2
 ucf3.0043
