@@ -7,8 +7,8 @@ apt-utils2.4.8
 base-files12ubuntu4.2
 base-passwd3.5.52build1
 bash5.1-6ubuntu1
-breeze4:5.24.6-0ubuntu0.1
-breeze-cursor-theme4:5.24.6-0ubuntu0.1
+breeze4:5.24.7-0ubuntu0.1
+breeze-cursor-theme4:5.24.7-0ubuntu0.1
 breeze-icon-theme4:5.92.0-0ubuntu1
 bsdextrautils2.37.2-4ubuntu3
 bsdutils1:2.37.2-4ubuntu3
@@ -78,12 +78,12 @@ jq1.6-2.1ubuntu3
 kded55.92.0-0ubuntu1
 kdenlive4:21.12.3-0ubuntu1
 kdenlive-data4:21.12.3-0ubuntu1
-kde-style-breeze4:5.24.6-0ubuntu0.1
+kde-style-breeze4:5.24.7-0ubuntu0.1
 keyboard-configuration1.205ubuntu3
 kinit5.92.0-0ubuntu1
 kio5.92.0-0ubuntu1
 kpackagetool55.92.0-0ubuntu1
-kwin-style-breeze4:5.24.6-0ubuntu0.1
+kwin-style-breeze4:5.24.7-0ubuntu0.1
 libaa11.4p5-50build1
 libaccounts-glib01.25-1
 libaccounts-qt5-11.16-2
@@ -185,7 +185,7 @@ libelf10.186-1build1
 libepoxy01.5.10-1
 libevdev21.12.1+dfsg-1
 libexif120.6.24-1build1
-libexpat12.4.7-1
+libexpat12.4.7-1ubuntu0.1
 libext2fs21.46.5-2ubuntu1.1
 libfaad22.10.0-2
 libffi83.4.2-4
@@ -215,8 +215,8 @@ libgdal303.4.1+dfsg-1build4
 libgdbm61.23-1
 libgdbm-compat41.23-1
 libgdcm3.03.0.10-1build2
-libgdk-pixbuf-2.0-02.42.8+dfsg-1ubuntu0.1
-libgdk-pixbuf2.0-common2.42.8+dfsg-1ubuntu0.1
+libgdk-pixbuf-2.0-02.42.8+dfsg-1ubuntu0.2
+libgdk-pixbuf2.0-common2.42.8+dfsg-1ubuntu0.2
 libgeos3.10.23.10.2-1
 libgeos-c1v53.10.2-1
 libgeotiff51.7.0-2build1
