@@ -12,7 +12,7 @@ breeze-cursor-theme4:5.24.7-0ubuntu0.1
 breeze-icon-theme4:5.92.0-0ubuntu1
 bsdextrautils2.37.2-4ubuntu3
 bsdutils1:2.37.2-4ubuntu3
-ca-certificates20211016
+ca-certificates20211016ubuntu0.22.04.1
 coreutils8.32-4.1ubuntu1
 cpp-1111.3.0-1ubuntu1~22.04
 cpp4:11.2.0-1ubuntu1
@@ -691,7 +691,7 @@ libxinerama12:1.1.4-3
 libxkbcommon01.4.0-1
 libxkbcommon-x11-01.4.0-1
 libxkbfile11:1.1.0-1build3
-libxml22.9.13+dfsg-1ubuntu0.1
+libxml22.9.13+dfsg-1ubuntu0.2
 libxmlb20.3.6-2build1
 libxmu62:1.1.3-3
 libxmuu12:1.1.3-3
@@ -719,7 +719,7 @@ libzvbi00.2.35-19
 libzvbi-common0.2.35-19
 libzxingcore11.2.0-1
 locales2.35-0ubuntu3.1
-login1:4.8.1-2ubuntu2
+login1:4.8.1-2ubuntu2.1
 logsave1.46.5-2ubuntu1.1
 lsb-base11.1.0ubuntu4
 lsb-release11.1.0ubuntu4
@@ -743,7 +743,7 @@ openbox3.6.1-10
 openssh-client1:8.9p1-3
 openssl3.0.2-0ubuntu1.7
 packagekit1.2.5-2ubuntu2
-passwd1:4.8.1-2ubuntu2
+passwd1:4.8.1-2ubuntu2.1
 perl5.34.0-3ubuntu1.1
 perl-base5.34.0-3ubuntu1.1
 perl-modules-5.345.34.0-3ubuntu1.1
@@ -848,8 +848,8 @@ xkb-data2.33-1
 xorg-sgml-doctools1:1.11-1.1
 xorgxrdp1:0.2.17-1build1
 xrdp0.9.17-2ubuntu2
-xserver-common2:21.1.3-2ubuntu2.3
-xserver-xorg-core2:21.1.3-2ubuntu2.3
+xserver-common2:21.1.3-2ubuntu2.4
+xserver-xorg-core2:21.1.3-2ubuntu2.4
 xserver-xorg-video-amdgpu22.0.0-1ubuntu0.1
 xserver-xorg-video-ati1:19.1.0-2ubuntu1
 xserver-xorg-video-intel2:2.99.917+git20210115-1
