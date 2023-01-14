@@ -489,7 +489,7 @@ libpolkit-gobject-1-00.105-33
 libpolkit-qt5-1-10.114.0-2
 libpoppler11822.02.0-2ubuntu0.1
 libpostproc557:4.4.2-0ubuntu0.22.04.1
-libpq514.5-0ubuntu0.22.04.1
+libpq514.6-0ubuntu0.22.04.1
 libprocps82:3.3.17-6ubuntu2
 libproj228.2.1-1
 libprotobuf233.12.4-1ubuntu7
@@ -728,8 +728,8 @@ mawk1.3.4.20200120-3
 mediainfo22.03-1
 media-types7.0.0
 melt7.4.0-1build1
-mesa-va-drivers22.0.5-0ubuntu0.1
-mesa-vdpau-drivers22.0.5-0ubuntu0.1
+mesa-va-drivers22.0.5-0ubuntu0.3
+mesa-vdpau-drivers22.0.5-0ubuntu0.3
 mount2.37.2-4ubuntu3
 mysql-common5.8+1.0.8
 ncurses-base6.3-2
