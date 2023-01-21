@@ -16,7 +16,7 @@ ca-certificates20211016ubuntu0.22.04.1
 coreutils8.32-4.1ubuntu1
 cpp-1111.3.0-1ubuntu1~22.04
 cpp4:11.2.0-1ubuntu1
-curl7.81.0-1ubuntu1.6
+curl7.81.0-1ubuntu1.7
 dash0.5.11+git20210903+057cd650a4ed-3build1
 dbus1.12.20-2ubuntu4.1
 dbus-x111.12.20-2ubuntu4.1
@@ -150,8 +150,8 @@ libcom-err21.46.5-2ubuntu1.1
 libcrypt11:4.4.27-1
 libcryptsetup122:2.4.3-1ubuntu1.1
 libcups22.4.1op1-1ubuntu4.1
-libcurl3-gnutls7.81.0-1ubuntu1.6
-libcurl47.81.0-1ubuntu1.6
+libcurl3-gnutls7.81.0-1ubuntu1.7
+libcurl47.81.0-1ubuntu1.7
 libdatrie10.2.13-2
 libdav1d50.9.2-1
 libdb5.35.3.28+dfsg1-0.8ubuntu3
@@ -180,7 +180,7 @@ libdw10.186-1build1
 libebur128-11.2.6-1
 libedit23.1-20210910-1build1
 libegl11.4.0-1
-libegl-mesa022.0.5-0ubuntu0.1
+libegl-mesa022.0.5-0ubuntu0.3
 libelf10.186-1build1
 libepoxy01.5.10-1
 libevdev21.12.1+dfsg-1
@@ -208,7 +208,7 @@ libfuse3-33.10.5-1build1
 libfyba04.1.1-7
 libgamin00.1.10-6
 libgavl22.0.0~svn6298-1
-libgbm122.0.5-0ubuntu0.1
+libgbm122.0.5-0ubuntu0.3
 libgcc-s112.1.0-2ubuntu1~22.04
 libgcrypt201.9.4-3ubuntu3
 libgdal303.4.1+dfsg-1build4
@@ -224,14 +224,14 @@ libgfortran512.1.0-2ubuntu1~22.04
 libgif75.1.9-2build2
 libgirepository-1.0-11.72.0-1
 libgl11.4.0-1
-libgl1-mesa-dri22.0.5-0ubuntu0.1
-libglapi-mesa22.0.5-0ubuntu0.1
+libgl1-mesa-dri22.0.5-0ubuntu0.3
+libglapi-mesa22.0.5-0ubuntu0.3
 libglib2.0-02.72.4-0ubuntu1
 libglib2.0-bin2.72.4-0ubuntu1
 libglib2.0-data2.72.4-0ubuntu1
 libglvnd01.4.0-1
 libglx01.4.0-1
-libglx-mesa022.0.5-0ubuntu0.1
+libglx-mesa022.0.5-0ubuntu0.3
 libgme00.6.3-2
 libgmp102:6.2.1+dfsg-3ubuntu1
 libgnutls303.7.3-4ubuntu1.1
@@ -378,7 +378,7 @@ libkmlengine11.3.0-9
 libkmod229-1ubuntu1
 libkrb5-31.19.2-2
 libkrb5support01.19.2-2
-libksba81.6.0-2ubuntu0.1
+libksba81.6.0-2ubuntu0.2
 libkwalletbackend5-55.92.0-0ubuntu1
 liblapack33.10.0-2ubuntu1
 liblcms2-22.12~rc1-2build2
@@ -536,9 +536,9 @@ librtmp12.4+20151223.gitfa8646d.1-2build4
 librttopo11.1.0-2
 librubberband22.0.0-2
 libsamplerate00.2.2-1build1
-libsasl2-22.1.27+dfsg2-3ubuntu1
-libsasl2-modules2.1.27+dfsg2-3ubuntu1
-libsasl2-modules-db2.1.27+dfsg2-3ubuntu1
+libsasl2-22.1.27+dfsg2-3ubuntu1.1
+libsasl2-modules2.1.27+dfsg2-3ubuntu1.1
+libsasl2-modules-db2.1.27+dfsg2-3ubuntu1.1
 libsbc11.5-3build2
 libsdl1.2debian1.2.15+dfsg2-6
 libsdl2-2.0-02.0.20+dfsg-2ubuntu1.22.04.1
@@ -740,7 +740,7 @@ nodejs16.19.0-deb-1nodesource1
 obconf1:2.0.4+git20150213-2build1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
-openssh-client1:8.9p1-3
+openssh-client1:8.9p1-3ubuntu0.1
 openssl3.0.2-0ubuntu1.7
 packagekit1.2.5-2ubuntu2
 passwd1:4.8.1-2ubuntu2.1
@@ -785,7 +785,7 @@ python3-pkg-resources59.6.0-1.2
 python3-pyparsing2.4.7-1
 python3-secretstorage3.3.1-1
 python3-six1.16.0-3ubuntu1
-python3-software-properties0.99.22.3
+python3-software-properties0.99.22.4
 python3-wadllib1.3.6-1
 python3-zipp1.0.0-3
 python-apt-common2.3.0ubuntu2.1
@@ -812,7 +812,7 @@ sensible-utils0.0.17
 session-migration0.3.6
 shared-mime-info2.1-2
 snapd2.57.5+22.04ubuntu0.1
-software-properties-common0.99.22.3
+software-properties-common0.99.22.4
 sound-theme-freedesktop0.8-2ubuntu1
 squashfs-tools1:4.5-3build1
 ssl-cert1.1.2
