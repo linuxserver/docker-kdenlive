@@ -27,7 +27,7 @@ debianutils5.5-1ubuntu2
 diffutils1:3.8-0ubuntu2
 dirmngr2.2.27-3ubuntu2.1
 distro-info-data0.52ubuntu0.2
-docker-ce-cli5:20.10.22~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.23~3-0~ubuntu-bionic
 dpkg1.21.1ubuntu2.1
 e2fsprogs1.46.5-2ubuntu1.1
 ffmpeg7:4.4.2-0ubuntu0.22.04.1
@@ -388,6 +388,7 @@ libldap-common2.5.13+dfsg-0ubuntu0.22.04.1
 liblept51.82.0-3build1
 liblilv-0-00.24.12-2
 libllvm131:13.0.1-2ubuntu2.1
+libllvm151:15.0.6-3~ubuntu0.22.04.2
 liblocale-gettext-perl1.07-4build3
 libltc111.3.1-1
 libltdl72.4.6-15build2
@@ -419,7 +420,7 @@ libmpg123-01.29.3-1build1
 libmplex2-2.1-01:2.1.0+debian-6build1
 libmtdev11.1.6-1build4
 libmysofa11.2.1~dfsg0-1
-libmysqlclient218.0.32-0buntu0.22.04.1
+libmysqlclient218.0.32-0ubuntu0.22.04.2
 libncurses66.3-2
 libncursesw66.3-2
 libnetcdf191:4.8.1-1
@@ -728,8 +729,8 @@ mawk1.3.4.20200120-3
 mediainfo22.03-1
 media-types7.0.0
 melt7.4.0-1build1
-mesa-va-drivers22.0.5-0ubuntu0.3
-mesa-vdpau-drivers22.0.5-0ubuntu0.3
+mesa-va-drivers22.2.5-0ubuntu0.1~22.04.1
+mesa-vdpau-drivers22.2.5-0ubuntu0.1~22.04.1
 mount2.37.2-4ubuntu3
 mysql-common5.8+1.0.8
 ncurses-base6.3-2
@@ -811,7 +812,7 @@ sed4.8-1ubuntu2
 sensible-utils0.0.17
 session-migration0.3.6
 shared-mime-info2.1-2
-snapd2.57.5+22.04ubuntu0.1
+snapd2.58+22.04
 software-properties-common0.99.22.4
 sound-theme-freedesktop0.8-2ubuntu1
 squashfs-tools1:4.5-3build1
