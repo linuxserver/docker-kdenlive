@@ -18,7 +18,6 @@ RUN \
   apt-get install --no-install-recommends -y \
     frei0r-plugins \
     i965-va-driver \
-    intel-media-va-driver \
     kdenlive \
     mediainfo \
     python3 \
@@ -40,6 +39,7 @@ RUN \
   apt-get purge --auto-remove -y \
     python3-pip && \
   rm -rf \
+    /config/.cache \
     /root/.cache \
     /tmp/* \
     /var/lib/apt/lists/* \
