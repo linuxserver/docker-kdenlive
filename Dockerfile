@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:jammy
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
 
 # set version label
 ARG BUILD_DATE
@@ -16,10 +16,8 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
-    firefox \
     frei0r-plugins \
     i965-va-driver \
-    intel-media-va-driver \
     kdenlive \
     mediainfo \
     python3 \
@@ -41,6 +39,7 @@ RUN \
   apt-get purge --auto-remove -y \
     python3-pip && \
   rm -rf \
+    /config/.cache \
     /root/.cache \
     /tmp/* \
     /var/lib/apt/lists/* \
