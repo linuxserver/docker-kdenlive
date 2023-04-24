@@ -96,6 +96,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "24.04.23:", desc: "Ensure application launches in fullscreen." }
   - { date: "18.03.23:", desc: "Rebase to KasmVNC base image." }
   - { date: "16.09.22:", desc: "Migrate to s6v3." }
   - { date: "09.03.22:", desc: "Update seccomp explanation." }
