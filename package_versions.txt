@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.14                                       npm        
-@types/node                                                                   20.6.3                                       npm        
+@types/node                                                                   20.8.0                                       npm        
 PyGObject                                                                     3.42.1                                       python     
 PyJWT                                                                         2.3.0                                        python     
 SecretStorage                                                                 3.3.1                                        python     
@@ -82,9 +82,9 @@ cacache                                                                       16
 cacache                                                                       17.1.2                                       npm        
 call-bind                                                                     1.0.2                                        npm        
 certifi                                                                       2023.7.22                                    python     
-cffi                                                                          1.15.1                                       python     
+cffi                                                                          1.16.0                                       python     
 chalk                                                                         4.1.2                                        npm        
-charset-normalizer                                                            3.2.0                                        python     
+charset-normalizer                                                            3.3.0                                        python     
 chownr                                                                        2.0.0                                        npm        
 ci-info                                                                       3.8.0                                        npm        
 cidr-regex                                                                    3.1.1                                        npm        
