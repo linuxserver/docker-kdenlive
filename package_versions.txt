@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.17                                       npm        
-@types/node                                                                   20.11.19                                     npm        
+@types/node                                                                   20.11.20                                     npm        
 PyGObject                                                                     3.42.1                                       python     
 PyJWT                                                                         2.3.0                                        python     
 SecretStorage                                                                 3.3.1                                        python     
@@ -565,7 +565,7 @@ gzip                                                                          1.
 has                                                                           1.0.3                                        npm        
 has-flag                                                                      4.0.0                                        npm        
 has-property-descriptors                                                      1.0.2                                        npm        
-has-proto                                                                     1.0.1                                        npm        
+has-proto                                                                     1.0.3                                        npm        
 has-symbols                                                                   1.0.3                                        npm        
 has-unicode                                                                   2.0.1                                        npm        
 hasown                                                                        2.0.1                                        npm        
@@ -1112,7 +1112,7 @@ libpolkit-qt5-1-1                                                             0.
 libpoppler-cpp0v5                                                             22.02.0-2ubuntu0.3                           deb        
 libpoppler118                                                                 22.02.0-2ubuntu0.3                           deb        
 libpostproc55                                                                 7:4.4.2-0ubuntu0.22.04.1                     deb        
-libpq5                                                                        14.10-0ubuntu0.22.04.1                       deb        
+libpq5                                                                        14.11-0ubuntu0.22.04.1                       deb        
 libprocps8                                                                    2:3.3.17-6ubuntu2                            deb        
 libproj22                                                                     8.2.1-1                                      deb        
 libprotobuf23                                                                 3.12.4-1ubuntu7.22.04.1                      deb        
@@ -1556,7 +1556,7 @@ sigstore                                                                      1.
 six                                                                           1.16.0                                       python     
 smart-buffer                                                                  4.2.0                                        npm        
 socket.io                                                                     4.7.4                                        npm        
-socket.io-adapter                                                             2.5.2                                        npm        
+socket.io-adapter                                                             2.5.4                                        npm        
 socket.io-parser                                                              4.2.4                                        npm        
 socks                                                                         2.7.1                                        npm        
 socks-proxy-agent                                                             7.0.0                                        npm        
