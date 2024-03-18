@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.25                                            npm                         
+@types/node                                                                   20.11.28                                            npm                         
 PyGObject                                                                     3.42.1                                              python                      
 PyJWT                                                                         2.3.0                                               python                      
 SecretStorage                                                                 3.3.1                                               python                      
@@ -569,7 +569,7 @@ has-property-descriptors                                                      1.
 has-proto                                                                     1.0.3                                               npm                         
 has-symbols                                                                   1.0.3                                               npm                         
 has-unicode                                                                   2.0.1                                               npm                         
-hasown                                                                        2.0.1                                               npm                         
+hasown                                                                        2.0.2                                               npm                         
 hicolor-icon-theme                                                            0.17-2                                              deb                         
 hosted-git-info                                                               6.1.1                                               npm                         
 hostname                                                                      3.23ubuntu2                                         deb                         
@@ -765,7 +765,7 @@ libeval-closure-perl                                                          0.
 libevdev2                                                                     1.12.1+dfsg-1                                       deb                         
 libexception-class-perl                                                       1.45-1                                              deb                         
 libexif12                                                                     0.6.24-1build1                                      deb                         
-libexpat1                                                                     2.4.7-1ubuntu0.2                                    deb                         
+libexpat1                                                                     2.4.7-1ubuntu0.3                                    deb                         
 libexporter-tiny-perl                                                         1.002002-1                                          deb                         
 libext2fs2                                                                    1.46.5-2ubuntu1.1                                   deb                         
 libfaad2                                                                      2.10.0-2                                            deb                         
@@ -1556,7 +1556,7 @@ sigs.k8s.io/yaml                                                              v1
 sigstore                                                                      1.5.2                                               npm                         
 six                                                                           1.16.0                                              python                      
 smart-buffer                                                                  4.2.0                                               npm                         
-socket.io                                                                     4.7.4                                               npm                         
+socket.io                                                                     4.7.5                                               npm                         
 socket.io-adapter                                                             2.5.4                                               npm                         
 socket.io-parser                                                              4.2.4                                               npm                         
 socks                                                                         2.7.1                                               npm                         
