@@ -146,7 +146,7 @@ services:
       - TZ=Etc/UTC
       - SUBFOLDER=/ #optional
     volumes:
-      - /path/to/config:/config
+      - /path/to/kdenlive/config:/config
     ports:
       - 3000:3000
       - 3001:3001
@@ -168,7 +168,7 @@ docker run -d \
   -e SUBFOLDER=/ `#optional` \
   -p 3000:3000 \
   -p 3001:3001 \
-  -v /path/to/config:/config \
+  -v /path/to/kdenlive/config:/config \
   --device /dev/dri:/dev/dri `#optional` \
   --shm-size="1gb" `#optional` \
   --restart unless-stopped \
