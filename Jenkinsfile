@@ -131,7 +131,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://archive.ubuntu.com/ubuntu/dists/jammy/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: kdenlive' | awk -F ': ' '/Version/{print $2;exit}' | sed 's/://g' ''',
+            script: ''' curl -sX GET http://archive.ubuntu.com/ubuntu/dists/noble/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: kdenlive' | awk -F ': ' '/Version/{print $2;exit}' | sed 's/://g' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

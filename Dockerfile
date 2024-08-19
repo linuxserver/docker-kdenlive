@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 
 # set version label
 ARG BUILD_DATE
@@ -24,24 +24,20 @@ RUN \
     i965-va-driver \
     kdenlive \
     mediainfo \
-    python3 \
-    python3-pip \
+    python3-venv \
     va-driver-all \
     vainfo \
     vdpau-driver-all && \
   echo "**** install vosk ****" && \
-  VOSK=$(curl -sX GET "https://api.github.com/repos/alphacep/vosk-api/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
-  SHORT=$(echo ${VOSK} |awk '{print substr($1,2); }') && \
-  curl -L -o \
-    /tmp/vosk-${SHORT}-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl \
-    "https://github.com/alphacep/vosk-api/releases/download/${VOSK}/vosk-${SHORT}-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl" && \
-  pip3 install /tmp/vosk-${SHORT}-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl && \
-  pip3 install -U \
-    srt && \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
+    pip \
+    wheel && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ \
+    srt \
+    vosk && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
-  apt-get purge --auto-remove -y \
-    python3-pip && \
   rm -rf \
     /config/.cache \
     /root/.cache \

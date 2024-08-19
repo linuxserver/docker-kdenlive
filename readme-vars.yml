@@ -113,6 +113,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.08.24:", desc: "Rebase to noble. Use pypi and lsio wheels." }
   - { date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon." }
   - { date: "24.04.23:", desc: "Ensure application launches in fullscreen." }
   - { date: "18.03.23:", desc: "Rebase to KasmVNC base image." }
