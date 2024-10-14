@@ -3,11 +3,12 @@ NAME                                                                          VE
 @fastify/busboy                                                               2.0.0                                   npm                         
 @kasmtech/novnc                                                               1.3.0                                   npm                         
 @socket.io/component-emitter                                                  3.1.2                                   npm                         
+@socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)   
 @types/busboy                                                                 1.5.0                                   npm                         
 @types/cookie                                                                 0.4.1                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.7.4                                  npm                         
+@types/node                                                                   22.7.5                                  npm                         
 Simple Launcher                                                               1.1.0.14                                dotnet     (+5 duplicates)  
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
@@ -59,7 +60,7 @@ catatonit                                                                     0.
 certifi                                                                       2024.8.30                               python                      
 cffi                                                                          1.17.1                                  python                      
 chalk                                                                         4.1.2                                   npm                         
-charset-normalizer                                                            3.3.2                                   python                      
+charset-normalizer                                                            3.4.0                                   python                      
 cjs-module-lexer                                                              1.2.3                                   npm                         
 cloud.google.com/go/compute/metadata                                          v0.3.0                                  go-module                   
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                   
@@ -73,8 +74,8 @@ console-setup-linux                                                           1.
 containerd.io                                                                 1.7.22-1                                deb                         
 content-disposition                                                           0.5.4                                   npm                         
 content-type                                                                  1.0.5                                   npm                         
-cookie                                                                        0.4.2                                   npm                         
-cookie                                                                        0.6.0                                   npm                         
+cookie                                                                        0.7.1                                   npm                         
+cookie                                                                        0.7.2                                   npm                         
 cookie-signature                                                              1.0.6                                   npm                         
 coreutils                                                                     9.4-3ubuntu6                            deb                         
 cors                                                                          2.8.5                                   npm                         
@@ -129,13 +130,14 @@ ee-first                                                                      1.
 ejs                                                                           3.1.10                                  npm                         
 encodeurl                                                                     1.0.2                                   npm                         
 encodeurl                                                                     2.0.0                                   npm                         
-engine.io                                                                     6.6.1                                   npm                         
+engine.io                                                                     6.6.2                                   npm                         
 engine.io-parser                                                              5.2.3                                   npm                         
+engine.io-parser                                                              UNKNOWN                                 npm        (+1 duplicate)   
 es-define-property                                                            1.0.0                                   npm                         
 es-errors                                                                     1.3.0                                   npm                         
 escape-html                                                                   1.0.3                                   npm                         
 etag                                                                          1.8.1                                   npm                         
-express                                                                       4.21.0                                  npm                         
+express                                                                       4.21.1                                  npm                         
 ffmpeg                                                                        7:6.1.1-3ubuntu5                        deb                         
 file                                                                          1:5.45-3build1                          deb                         
 file-uri-to-path                                                              1.0.0                                   npm                         
@@ -688,7 +690,7 @@ libdw1t64                                                                     0.
 libdynaloader-functions-perl                                                  0.003-3                                 deb                         
 libebur128-1                                                                  1.2.6-1build1                           deb                         
 libedit2                                                                      3.1-20230828-1build1                    deb                         
-libegl-mesa0                                                                  24.0.9-0ubuntu0.1                       deb                         
+libegl-mesa0                                                                  24.0.9-0ubuntu0.2                       deb                         
 libegl1                                                                       1.7.0-1build1                           deb                         
 libelf1t64                                                                    0.190-1.1build4                         deb                         
 libepoxy0                                                                     1.5.10-1build1                          deb                         
@@ -718,7 +720,7 @@ libfribidi0                                                                   1.
 libfuse3-3                                                                    3.14.0-5build1                          deb                         
 libfyba0t64                                                                   4.1.1-11build1                          deb                         
 libgavl2                                                                      2.0.0~svn6298-1build2                   deb                         
-libgbm1                                                                       24.0.9-0ubuntu0.1                       deb                         
+libgbm1                                                                       24.0.9-0ubuntu0.2                       deb                         
 libgcc-s1                                                                     14-20240412-0ubuntu1                    deb                         
 libgcrypt20                                                                   1.10.3-2build1                          deb                         
 libgdal34t64                                                                  3.8.4+dfsg-3ubuntu3                     deb                         
@@ -734,15 +736,15 @@ libgfortran5                                                                  14
 libgif7                                                                       5.2.2-1ubuntu1                          deb                         
 libgirepository-1.0-1                                                         1.80.1-1                                deb                         
 libgl1                                                                        1.7.0-1build1                           deb                         
-libgl1-mesa-dri                                                               24.0.9-0ubuntu0.1                       deb                         
-libglapi-mesa                                                                 24.0.9-0ubuntu0.1                       deb                         
+libgl1-mesa-dri                                                               24.0.9-0ubuntu0.2                       deb                         
+libglapi-mesa                                                                 24.0.9-0ubuntu0.2                       deb                         
 libgles2                                                                      1.7.0-1build1                           deb                         
 libglib2.0-0t64                                                               2.80.0-6ubuntu3.1                       deb                         
 libglib2.0-bin                                                                2.80.0-6ubuntu3.1                       deb                         
 libglib2.0-data                                                               2.80.0-6ubuntu3.1                       deb                         
 libglu1-mesa                                                                  9.0.2-1.1build1                         deb                         
 libglvnd0                                                                     1.7.0-1build1                           deb                         
-libglx-mesa0                                                                  24.0.9-0ubuntu0.1                       deb                         
+libglx-mesa0                                                                  24.0.9-0ubuntu0.2                       deb                         
 libglx0                                                                       1.7.0-1build1                           deb                         
 libgme0                                                                       0.6.3-7build1                           deb                         
 libgmp10                                                                      2:6.3.0+dfsg-2ubuntu6                   deb                         
@@ -1044,7 +1046,7 @@ libpostproc57                                                                 7:
 libppd2                                                                       2:2.0.0-0ubuntu4.1                      deb                         
 libppd2-common                                                                2:2.0.0-0ubuntu4.1                      deb                         
 libpq5                                                                        16.4-0ubuntu0.24.04.2                   deb                         
-libproc2-0                                                                    2:4.0.4-4ubuntu3.1                      deb                         
+libproc2-0                                                                    2:4.0.4-4ubuntu3.2                      deb                         
 libproj25                                                                     9.4.0-1build2                           deb                         
 libprotobuf32t64                                                              3.21.12-8.2build1                       deb                         
 libproxy1v5                                                                   0.5.4-4build1                           deb                         
@@ -1308,9 +1310,9 @@ media-types                                                                   10
 mediainfo                                                                     24.01.1-1build2                         deb                         
 melt                                                                          7.22.0-1build6                          deb                         
 merge-descriptors                                                             1.0.3                                   npm                         
-mesa-va-drivers                                                               24.0.9-0ubuntu0.1                       deb                         
-mesa-vdpau-drivers                                                            24.0.9-0ubuntu0.1                       deb                         
-mesa-vulkan-drivers                                                           24.0.9-0ubuntu0.1                       deb                         
+mesa-va-drivers                                                               24.0.9-0ubuntu0.2                       deb                         
+mesa-vdpau-drivers                                                            24.0.9-0ubuntu0.2                       deb                         
+mesa-vulkan-drivers                                                           24.0.9-0ubuntu0.2                       deb                         
 methods                                                                       1.1.2                                   npm                         
 mime                                                                          1.6.0                                   npm                         
 mime-db                                                                       1.52.0                                  npm                         
@@ -1321,7 +1323,7 @@ mount                                                                         2.
 ms                                                                            2.0.0                                   npm                         
 ms                                                                            2.1.3                                   npm        (+4 duplicates)  
 mysql-common                                                                  5.8+1.1.0build1                         deb                         
-nan                                                                           2.20.0                                  npm                         
+nan                                                                           2.22.0                                  npm                         
 ncurses-base                                                                  6.4+20240113-1ubuntu2                   deb                         
 ncurses-bin                                                                   6.4+20240113-1ubuntu2                   deb                         
 negotiator                                                                    0.6.3                                   npm                         
@@ -1358,7 +1360,7 @@ polkitd                                                                       12
 poppler-data                                                                  0.4.12-1                                deb                         
 poppler-utils                                                                 24.02.0-1ubuntu9.1                      deb                         
 printer-driver-cups-pdf                                                       3.0.1-14build2                          deb                         
-procps                                                                        2:4.0.4-4ubuntu3.1                      deb                         
+procps                                                                        2:4.0.4-4ubuntu3.2                      deb                         
 proj-data                                                                     9.4.0-1build2                           deb                         
 proxy-addr                                                                    2.0.7                                   npm                         
 publicsuffix                                                                  20231001.0357-0.1                       deb                         
