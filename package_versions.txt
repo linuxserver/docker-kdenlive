@@ -8,7 +8,7 @@ NAME                                                                          VE
 @types/cookie                                                                 0.4.1                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.7.5                                  npm                         
+@types/node                                                                   22.7.7                                  npm                         
 Simple Launcher                                                               1.1.0.14                                dotnet     (+5 duplicates)  
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
@@ -157,7 +157,7 @@ function-bind                                                                 1.
 fuse-overlayfs                                                                1.13-1                                  deb                         
 fuse3                                                                         3.14.0-5build1                          deb                         
 gcc-13-base                                                                   13.2.0-23ubuntu4                        deb                         
-gcc-14-base                                                                   14-20240412-0ubuntu1                    deb                         
+gcc-14-base                                                                   14.2.0-4ubuntu2~24.04                   deb                         
 gdal-data                                                                     3.8.4+dfsg-3ubuntu3                     deb                         
 gdal-plugins                                                                  3.8.4+dfsg-3ubuntu3                     deb                         
 get-intrinsic                                                                 1.2.4                                   npm                         
@@ -518,7 +518,7 @@ gsettings-desktop-schemas                                                     46
 gstreamer1.0-plugins-bad                                                      1.24.2-1ubuntu4                         deb                         
 gstreamer1.0-plugins-base                                                     1.24.2-1ubuntu0.1                       deb                         
 gstreamer1.0-plugins-good                                                     1.24.2-1ubuntu1                         deb                         
-gtk-update-icon-cache                                                         3.24.41-4ubuntu1.1                      deb                         
+gtk-update-icon-cache                                                         3.24.41-4ubuntu1.2                      deb                         
 gzip                                                                          1.12-1ubuntu3                           deb                         
 has-flag                                                                      4.0.0                                   npm                         
 has-property-descriptors                                                      1.0.2                                   npm                         
@@ -583,7 +583,7 @@ libaom3                                                                       3.
 libapparmor1                                                                  4.0.1really4.0.1-0ubuntu0.24.04.3       deb                         
 libappstream5                                                                 1.0.2-1build6                           deb                         
 libapt-pkg6.0t64                                                              2.7.14build2                            deb                         
-libarchive13t64                                                               3.7.2-2ubuntu0.1                        deb                         
+libarchive13t64                                                               3.7.2-2ubuntu0.2                        deb                         
 libargon2-1                                                                   0~20190702+dfsg-4build1                 deb                         
 libarmadillo12                                                                1:12.6.7+dfsg-1build2                   deb                         
 libarpack2t64                                                                 3.9.1-1.1build2                         deb                         
@@ -721,7 +721,7 @@ libfuse3-3                                                                    3.
 libfyba0t64                                                                   4.1.1-11build1                          deb                         
 libgavl2                                                                      2.0.0~svn6298-1build2                   deb                         
 libgbm1                                                                       24.0.9-0ubuntu0.2                       deb                         
-libgcc-s1                                                                     14-20240412-0ubuntu1                    deb                         
+libgcc-s1                                                                     14.2.0-4ubuntu2~24.04                   deb                         
 libgcrypt20                                                                   1.10.3-2build1                          deb                         
 libgdal34t64                                                                  3.8.4+dfsg-3ubuntu3                     deb                         
 libgdbm-compat4t64                                                            1.23-5.1build1                          deb                         
@@ -732,7 +732,7 @@ libgdk-pixbuf2.0-common                                                       2.
 libgeos-c1t64                                                                 3.12.1-3build1                          deb                         
 libgeos3.12.1t64                                                              3.12.1-3build1                          deb                         
 libgeotiff5                                                                   1.7.1-5build1                           deb                         
-libgfortran5                                                                  14-20240412-0ubuntu1                    deb                         
+libgfortran5                                                                  14.2.0-4ubuntu2~24.04                   deb                         
 libgif7                                                                       5.2.2-1ubuntu1                          deb                         
 libgirepository-1.0-1                                                         1.80.1-1                                deb                         
 libgl1                                                                        1.7.0-1build1                           deb                         
@@ -749,7 +749,7 @@ libglx0                                                                       1.
 libgme0                                                                       0.6.3-7build1                           deb                         
 libgmp10                                                                      2:6.3.0+dfsg-2ubuntu6                   deb                         
 libgnutls30t64                                                                3.8.3-1.1ubuntu3.2                      deb                         
-libgomp1                                                                      14-20240412-0ubuntu1                    deb                         
+libgomp1                                                                      14.2.0-4ubuntu2~24.04                   deb                         
 libgpg-error0                                                                 1.47-3build2                            deb                         
 libgpgme11t64                                                                 1.18.0-4.1ubuntu4                       deb                         
 libgpgmepp6t64                                                                1.18.0-4.1ubuntu4                       deb                         
@@ -766,8 +766,8 @@ libgstreamer-plugins-bad1.0-0                                                 1.
 libgstreamer-plugins-base1.0-0                                                1.24.2-1ubuntu0.1                       deb                         
 libgstreamer-plugins-good1.0-0                                                1.24.2-1ubuntu1                         deb                         
 libgstreamer1.0-0                                                             1.24.2-1                                deb                         
-libgtk-3-0t64                                                                 3.24.41-4ubuntu1.1                      deb                         
-libgtk-3-common                                                               3.24.41-4ubuntu1.1                      deb                         
+libgtk-3-0t64                                                                 3.24.41-4ubuntu1.2                      deb                         
+libgtk-3-common                                                               3.24.41-4ubuntu1.2                      deb                         
 libgudev-1.0-0                                                                1:238-5ubuntu1                          deb                         
 libgupnp-1.6-0                                                                1.6.6-1build3                           deb                         
 libgupnp-igd-1.6-0                                                            1.6.0-3build3                           deb                         
@@ -1145,7 +1145,7 @@ libssh-4                                                                      0.
 libssh-gcrypt-4                                                               0.10.6-2build2                          deb                         
 libssl3t64                                                                    3.0.13-0ubuntu3.4                       deb                         
 libstartup-notification0                                                      0.12-6build3                            deb                         
-libstdc++6                                                                    14-20240412-0ubuntu1                    deb                         
+libstdc++6                                                                    14.2.0-4ubuntu2~24.04                   deb                         
 libstemmer0d                                                                  2.2.0-4build1                           deb                         
 libsub-exporter-perl                                                          0.990-1                                 deb                         
 libsub-exporter-progressive-perl                                              0.001013-3                              deb                         
