@@ -957,7 +957,7 @@ libmplex2-2.1-0t64                                                            1:
 libmro-compat-perl                                                            0.15-2                                  deb                         
 libmtdev1t64                                                                  1.1.6-1.1build1                         deb                         
 libmysofa1                                                                    1.3.2+dfsg-2ubuntu2                     deb                         
-libmysqlclient21                                                              8.0.39-0ubuntu0.24.04.2                 deb                         
+libmysqlclient21                                                              8.0.40-0ubuntu0.24.04.1                 deb                         
 libnamespace-autoclean-perl                                                   0.29-2                                  deb                         
 libnamespace-clean-perl                                                       0.27-2                                  deb                         
 libncurses6                                                                   6.4+20240113-1ubuntu2                   deb                         
@@ -1487,7 +1487,7 @@ vdpau-driver-all                                                              1.
 vosk                                                                          0.3.45                                  python                      
 vulkan-tools                                                                  1.3.275.0+dfsg1-1                       deb                         
 wadllib                                                                       1.3.6                                   python                      
-websockets                                                                    14.0                                    python                      
+websockets                                                                    14.1                                    python                      
 wheel                                                                         0.45.0                                  python                      
 ws                                                                            8.17.1                                  npm                         
 x11-apps                                                                      7.7+11build3                            deb                         
