@@ -1047,7 +1047,7 @@ libpoppler134                                                                 24
 libpostproc57                                                                 7:6.1.1-3ubuntu5                        deb                         
 libppd2                                                                       2:2.0.0-0ubuntu4.1                      deb                         
 libppd2-common                                                                2:2.0.0-0ubuntu4.1                      deb                         
-libpq5                                                                        16.4-0ubuntu0.24.04.2                   deb                         
+libpq5                                                                        16.6-0ubuntu0.24.04.1                   deb                         
 libproc2-0                                                                    2:4.0.4-4ubuntu3.2                      deb                         
 libproj25                                                                     9.4.0-1build2                           deb                         
 libprotobuf32t64                                                              3.21.12-8.2build1                       deb                         
