@@ -6,6 +6,7 @@ project_url: "https://kdenlive.org/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png"
 project_blurb: "[Kdenlive]({{ project_url }}) is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Video Editor"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
