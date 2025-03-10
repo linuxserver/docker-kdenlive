@@ -7,7 +7,7 @@ NAME                                                                          VE
 @types/busboy                                                                 1.5.0                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.13.8                                 npm                         
+@types/node                                                                   22.13.10                                npm                         
 Simple Launcher                                                               1.1.0.14                                dotnet     (+5 duplicates)  
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
@@ -55,7 +55,7 @@ busboy                                                                        1.
 bytes                                                                         3.1.2                                   npm                         
 ca-certificates                                                               20240203                                deb                         
 call-bind-apply-helpers                                                       1.0.2                                   npm                         
-call-bound                                                                    1.0.3                                   npm                         
+call-bound                                                                    1.0.4                                   npm                         
 catatonit                                                                     0.1.7-1                                 deb                         
 certifi                                                                       2025.1.31                               python                      
 cffi                                                                          1.17.1                                  python                      
@@ -601,7 +601,7 @@ keyboxd                                                                       2.
 kinit                                                                         5.115.0-0ubuntu6                        deb                         
 kio                                                                           5.115.0-0ubuntu6                        deb                         
 kpackagetool5                                                                 5.115.0-0ubuntu5                        deb                         
-krb5-locales                                                                  1.20.1-6ubuntu2.4                       deb                         
+krb5-locales                                                                  1.20.1-6ubuntu2.5                       deb                         
 kwin-style-breeze                                                             4:5.27.12-0ubuntu0.1                    deb                         
 launchpadlib                                                                  1.11.0                                  python                      
 lazr-restfulclient                                                            0.14.6                                  python                      
@@ -792,7 +792,7 @@ libgs-common                                                                  10
 libgs10                                                                       10.02.1~dfsg1-0ubuntu7.4                deb                         
 libgs10-common                                                                10.02.1~dfsg1-0ubuntu7.4                deb                         
 libgsm1                                                                       1.0.22-1build1                          deb                         
-libgssapi-krb5-2                                                              1.20.1-6ubuntu2.4                       deb                         
+libgssapi-krb5-2                                                              1.20.1-6ubuntu2.5                       deb                         
 libgssdp-1.6-0                                                                1.6.3-1build3                           deb                         
 libgstreamer-gl1.0-0                                                          1.24.2-1ubuntu0.2                       deb                         
 libgstreamer-plugins-bad1.0-0                                                 1.24.2-1ubuntu4                         deb                         
@@ -842,7 +842,7 @@ libjson-c5                                                                    0.
 libjson-glib-1.0-0                                                            1.8.0-2build2                           deb                         
 libjson-glib-1.0-common                                                       1.8.0-2build2                           deb                         
 libjxl0.7                                                                     0.7.0-10.2ubuntu6                       deb                         
-libk5crypto3                                                                  1.20.1-6ubuntu2.4                       deb                         
+libk5crypto3                                                                  1.20.1-6ubuntu2.5                       deb                         
 libkaccounts2                                                                 4:23.08.5-0ubuntu4                      deb                         
 libkdecorations2-5v5                                                          4:5.27.11-0ubuntu2                      deb                         
 libkdecorations2private10                                                     4:5.27.11-0ubuntu2                      deb                         
@@ -939,8 +939,8 @@ libkmlbase1t64                                                                1.
 libkmldom1t64                                                                 1.3.0-12build1                          deb                         
 libkmlengine1t64                                                              1.3.0-12build1                          deb                         
 libkmod2                                                                      31+20240202-2ubuntu7.1                  deb                         
-libkrb5-3                                                                     1.20.1-6ubuntu2.4                       deb                         
-libkrb5support0                                                               1.20.1-6ubuntu2.4                       deb                         
+libkrb5-3                                                                     1.20.1-6ubuntu2.5                       deb                         
+libkrb5support0                                                               1.20.1-6ubuntu2.5                       deb                         
 libksba8                                                                      1.6.6-1build1                           deb                         
 libkwalletbackend5-5                                                          5.115.0-0ubuntu3                        deb                         
 liblapack3                                                                    3.12.0-3build1.1                        deb                         
@@ -1529,7 +1529,7 @@ vdpau-driver-all                                                              1.
 vosk                                                                          0.3.45                                  python                      
 vulkan-tools                                                                  1.3.275.0+dfsg1-1                       deb                         
 wadllib                                                                       1.3.6                                   python                      
-websockets                                                                    15.0                                    python                      
+websockets                                                                    15.0.1                                  python                      
 wheel                                                                         0.45.1                                  python                      
 ws                                                                            8.17.1                                  npm                         
 x11-apps                                                                      7.7+11build3                            deb                         
