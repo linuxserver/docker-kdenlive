@@ -7,7 +7,8 @@ NAME                                                                          VE
 @types/busboy                                                                 1.5.0                                   npm                         
 @types/cors                                                                   2.8.18                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.15.18                                npm                         
+@types/node                                                                   22.15.21                                npm                         
+Simple Launcher                                                               1.1.0.14                                binary     (+5 duplicates)  
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
 acorn-bigint                                                                  1.0.0                                   npm                         
@@ -1088,7 +1089,7 @@ libpoppler134                                                                 24
 libpostproc57                                                                 7:6.1.1-3ubuntu5                        deb                         
 libppd2                                                                       2:2.0.0-0ubuntu4.1                      deb                         
 libppd2-common                                                                2:2.0.0-0ubuntu4.1                      deb                         
-libpq5                                                                        16.8-0ubuntu0.24.04.1                   deb                         
+libpq5                                                                        16.9-0ubuntu0.24.04.1                   deb                         
 libproc2-0                                                                    2:4.0.4-4ubuntu3.2                      deb                         
 libproj25                                                                     9.4.0-1build2                           deb                         
 libprotobuf32t64                                                              3.21.12-8.2ubuntu0.1                    deb                         
