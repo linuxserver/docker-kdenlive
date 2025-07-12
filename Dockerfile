@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
+FROM ghcr.io/linuxserver/baseimage-selkies:ubuntunoble
 
 # set version label
 ARG BUILD_DATE
@@ -17,27 +17,22 @@ ARG DEBIAN_FRONTEND="noninteractive"
 RUN \
   echo "**** add icon ****" && \
   curl -o \
-    /kclient/public/icon.png \
+    /usr/share/selkies/www/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png && \
   echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install --no-install-recommends -y \
-    frei0r-plugins \
-    i965-va-driver \
-    kdenlive \
-    mediainfo \
-    python3-venv \
-    va-driver-all \
-    vainfo \
-    vdpau-driver-all && \
-  echo "**** install vosk ****" && \
-  python3 -m venv /lsiopy && \
-  pip install -U --no-cache-dir \
-    pip \
-    wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ \
-    srt \
-    vosk && \
+  if [ -z ${KDENLIVE_VERSION+x} ]; then \
+    KDENLIVE_VERSION=$(curl -s 'https://apps.kde.org/kdenlive/index.xml' \
+    | awk -F'[<>]' '{for(i=1; i<=NF; i++) if($i=="guid"){split($(i+1), a, "#"); print a[2]; exit}}'); \
+  fi && \
+  curl -o \
+    /tmp/kdenlive.app -L \
+    "https://download.kde.org/stable/kdenlive/$(echo "$KDENLIVE_VERSION" | sed 's/\.[^.]*$//')/linux/kdenlive-${KDENLIVE_VERSION}-x86_64.AppImage" && \
+  cd /tmp && \
+  chmod +x kdenlive.app && \
+  ./kdenlive.app --appimage-extract && \
+  mv \
+    squashfs-root \
+    /opt/kdenlive && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf \
