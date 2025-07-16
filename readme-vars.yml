@@ -100,7 +100,7 @@ init_diagram: |
   "kdenlive:latest" <- Base Images
 # changelog
 changelogs:
-  - {date: "12.07.25:", desc: "Rebase to Selkies and use Debian with official AppImage, HTTPS IS NOW REQUIRED."}
+  - {date: "12.07.25:", desc: "Rebase to Selkies and use official AppImage, HTTPS IS NOW REQUIRED."}
   - {date: "19.08.24:", desc: "Rebase to noble. Use pypi and lsio wheels."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "24.04.23:", desc: "Ensure application launches in fullscreen."}
