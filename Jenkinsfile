@@ -27,11 +27,11 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/kdenlive'
     PR_DOCKERHUB_IMAGE = 'lspipepr/kdenlive'
     DIST_IMAGE = 'ubuntu'
-    MULTIARCH = 'true'
+    MULTIARCH = 'false'
     CI = 'true'
     CI_WEB = 'true'
-    CI_PORT = '3000'
-    CI_SSL = 'false'
+    CI_PORT = '3001'
+    CI_SSL = 'true'
     CI_DELAY = '120'
     CI_DOCKERENV = 'TZ=US/Pacific'
     CI_AUTH = 'user:password'
@@ -147,7 +147,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://archive.ubuntu.com/ubuntu/dists/noble/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: kdenlive' | awk -F ': ' '/Version/{print $2;exit}' | sed 's/://g' ''',
+            script: ''' curl -s 'https://apps.kde.org/kdenlive/index.xml' | awk -F'[<>]' '{for(i=1; i<=NF; i++) if($i=="guid"){split($(i+1), a, "#"); print a[2]; exit}}' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
