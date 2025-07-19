@@ -429,7 +429,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **12.07.25:** - Rebase to Selkies and use official AppImage, HTTPS IS NOW REQUIRED.
+* **12.07.25:** - Rebase to Selkies and use official AppImage, HTTPS IS NOW REQUIRED. Remove arm64 support.
 * **19.08.24:** - Rebase to noble. Use pypi and lsio wheels.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **24.04.23:** - Ensure application launches in fullscreen.
