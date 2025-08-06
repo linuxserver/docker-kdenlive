@@ -10,7 +10,8 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # app title
-ENV TITLE=Kdenlive
+ENV TITLE=Kdenlive \
+    NO_GAMEPAD=true
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
