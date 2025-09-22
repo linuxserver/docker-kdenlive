@@ -26,8 +26,8 @@ pipeline {
     DOCKERHUB_IMAGE = 'linuxserver/kdenlive'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/kdenlive'
     PR_DOCKERHUB_IMAGE = 'lspipepr/kdenlive'
-    DIST_IMAGE = 'ubuntu'
-    MULTIARCH = 'false'
+    DIST_IMAGE = 'arch'
+    MULTIARCH = 'true'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '3001'
@@ -147,7 +147,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -s 'https://apps.kde.org/kdenlive/index.xml' | awk -F'[<>]' '{for(i=1; i<=NF; i++) if($i=="guid"){split($(i+1), a, "#"); print a[2]; exit}}' ''',
+            script: ''' curl -sL https://archlinux.org/packages/extra/x86_64/kdenlive/ |awk -F'(<h2>kdenlive |</h2>)' '/<h2>/ {print $2}' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

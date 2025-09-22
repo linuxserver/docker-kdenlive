@@ -2,9 +2,9 @@
 
 # jenkins variables
 project_name: docker-kdenlive
-external_type: nai
+external_type: na
 custom_version_command: |-
-  curl -s 'https://apps.kde.org/kdenlive/index.xml' | awk -F'[<>]' '{for(i=1; i<=NF; i++) if($i=="guid"){split($(i+1), a, "#"); print a[2]; exit}}'
+  curl -sL https://archlinux.org/packages/extra/x86_64/kdenlive/ |awk -F'(<h2>kdenlive |</h2>)' '/<h2>/ {print $2}'
 release_type: stable
 release_tag: latest
 ls_branch: master
@@ -17,8 +17,8 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'linuxserver/kdenlive'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/kdenlive'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/kdenlive'
-  - DIST_IMAGE = 'ubuntu'
-  - MULTIARCH = 'false'
+  - DIST_IMAGE = 'arch'
+  - MULTIARCH = 'true'
   - CI = 'true'
   - CI_WEB = 'true'
   - CI_PORT = '3001'

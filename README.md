@@ -52,13 +52,12 @@ The architectures supported by this image are:
 | Architecture | Available | Tag |
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
-| arm64 | ❌ | |
+| arm64 | ✅ | arm64v8-\<version tag\> |
 
 ## Application Setup
 
 The application can be accessed at:
 
-* http://yourhost:3000/
 * https://yourhost:3001/
 
 ### Strict reverse proxies
@@ -221,8 +220,6 @@ services:
   kdenlive:
     image: lscr.io/linuxserver/kdenlive:latest
     container_name: kdenlive
-    security_opt:
-      - seccomp:unconfined #optional
     environment:
       - PUID=1000
       - PGID=1000
@@ -241,7 +238,6 @@ services:
 ```bash
 docker run -d \
   --name=kdenlive \
-  --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
@@ -266,7 +262,6 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Users home directory in the container, stores local files and settings |
 | `--shm-size=` | This might be needed to prevent crashing |
-| `--security-opt seccomp=unconfined` | For Docker Engine only, this may be required depending on your Docker and storage configuration. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -430,6 +425,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **22.09.25:** - Rebase to Arch latest Appimage no longer working on Deb distros. Build for arm64 again.
 * **06.08.25:** - Fix cpu bug, disable gamepad by default.
 * **12.07.25:** - Rebase to Selkies and use official AppImage, HTTPS IS NOW REQUIRED. Remove arm64 support.
 * **19.08.24:** - Rebase to noble. Use pypi and lsio wheels.
