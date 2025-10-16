@@ -20,7 +20,7 @@ RUN \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png && \
   echo "**** install packages ****" && \
   pacman -Sy --noconfirm --needed \
-    kdenlive${KDENLIVE_VERSION:+=$KDENLIVE_VERSION} && \
+    kdenlive && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
