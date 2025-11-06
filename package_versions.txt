@@ -502,7 +502,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20241105132330-32ad38e42d3f      go-module                      
 k8s.io/kubelet                                                                v0.32.3                                 go-module                      
 k8s.io/utils                                                                  v0.0.0-20241104100929-3ea5e8cea738      go-module     (+2 duplicates)  
-kaccounts-integration                                                         25.08.2-1                               alpm                           
+kaccounts-integration                                                         25.08.3-1                               alpm                           
 karchive                                                                      6.19.0-1                                alpm                           
 kauth                                                                         6.19.0-1                                alpm                           
 kbd                                                                           2.9.0-1                                 alpm                           
@@ -516,7 +516,7 @@ kconfigwidgets                                                                6.
 kcoreaddons                                                                   6.19.0-1                                alpm                           
 kcrash                                                                        6.19.0-1                                alpm                           
 kdbusaddons                                                                   6.19.0-1                                alpm                           
-kdenlive                                                                      25.08.2-2                               alpm                           
+kdenlive                                                                      25.08.3-1                               alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.76                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.76                                 go-module                      
 keyutils                                                                      1.6.3-3                                 alpm                           
@@ -619,7 +619,7 @@ libnghttp3                                                                    1.
 libnl                                                                         3.11.0-1                                alpm                           
 libnotify                                                                     0.8.7-1                                 alpm                           
 libnsl                                                                        2.0.1-1                                 alpm                           
-libnvme                                                                       1.15-1                                  alpm                           
+libnvme                                                                       1.16-2                                  alpm                           
 libogg                                                                        1.3.6-1                                 alpm                           
 libopenmpt                                                                    0.8.3-1                                 alpm                           
 libp11-kit                                                                    0.25.10-2                               alpm                           
@@ -720,7 +720,7 @@ mdadm                                                                         4.
 media-player-info                                                             26-1                                    alpm                           
 mesa                                                                          1:25.2.5-2                              alpm                           
 minizip                                                                       1:1.3.1-2                               alpm                           
-mlt                                                                           7.32.0-6                                alpm                           
+mlt                                                                           7.34.1-1                                alpm                           
 more-itertools                                                                10.3.0                                  python                         
 mpdecimal                                                                     4.0.1-1                                 alpm                           
 mpfr                                                                          4.2.2-1                                 alpm                           
@@ -830,7 +830,7 @@ setuptools                                                                    80
 shaderc                                                                       2025.4-2                                alpm                           
 shadow                                                                        4.18.0-1                                alpm                           
 shared-mime-info                                                              2.4-2                                   alpm                           
-signon-kwallet-extension                                                      25.08.2-1                               alpm                           
+signon-kwallet-extension                                                      25.08.3-1                               alpm                           
 signon-plugin-oauth2                                                          0.25-3                                  alpm                           
 signon-ui                                                                     0.17+20231016-3                         alpm                           
 signond                                                                       8.61-3                                  alpm                           
@@ -870,7 +870,7 @@ tdb                                                                           1.
 texinfo                                                                       7.2-1                                   alpm                           
 tomli                                                                         2.0.1                                   python                         
 tpm2-tss                                                                      4.1.3-1                                 alpm                           
-tslib                                                                         1.23-1                                  alpm                           
+tslib                                                                         1.24-1                                  alpm                           
 turbojpeg                                                                     UNKNOWN                                 java-archive                   
 typeguard                                                                     4.3.0                                   python                         
 typing-extensions                                                             4.12.2                                  python                         
