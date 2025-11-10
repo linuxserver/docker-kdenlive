@@ -482,7 +482,7 @@ intel-gmmlib                                                                  22
 intel-media-driver                                                            25.3.4-1                                alpm                           
 iproute2                                                                      6.17.0-1                                alpm                           
 iptables                                                                      1:1.8.11-2                              alpm                           
-iso-codes                                                                     4.18.0-1                                alpm                           
+iso-codes                                                                     4.19.0-1                                alpm                           
 jack2                                                                         1.9.22-1                                alpm                           
 jansson                                                                       2.14.1-1                                alpm                           
 jaraco-collections                                                            5.1.0                                   python                         
@@ -518,7 +518,7 @@ kconfigwidgets                                                                6.
 kcoreaddons                                                                   6.19.0-1                                alpm                           
 kcrash                                                                        6.19.0-1                                alpm                           
 kdbusaddons                                                                   6.19.0-1                                alpm                           
-kdenlive                                                                      25.08.3-2                               alpm                           
+kdenlive                                                                      25.08.3-3                               alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.76                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.76                                 go-module                      
 keyutils                                                                      1.6.3-3                                 alpm                           
@@ -742,7 +742,7 @@ noto-fonts-emoji                                                              1:
 npth                                                                          1.8-1                                   alpm                           
 nspr                                                                          4.37-1                                  alpm                           
 nss                                                                           3.117-1                                 alpm                           
-ocl-icd                                                                       2.3.3-1                                 alpm                           
+ocl-icd                                                                       2.3.4-1                                 alpm                           
 oniguruma                                                                     6.9.10-1                                alpm                           
 openbox                                                                       3.6.1-14                                alpm                           
 openbsd-netcat                                                                1.229_1-2                               alpm                           
@@ -750,8 +750,8 @@ opencore-amr                                                                  0.
 openjpeg2                                                                     2.5.4-1                                 alpm                           
 openssh                                                                       10.2p1-2                                alpm                           
 openssl                                                                       3.6.0-1                                 alpm                           
-opentimelineio                                                                0.18.0                                  python                         
-opentimelineio                                                                0.18.0-1                                alpm                           
+opentimelineio                                                                0.18.1                                  python                         
+opentimelineio                                                                0.18.1-1                                alpm                           
 opus                                                                          1.5.2-1                                 alpm                           
 orc                                                                           0.4.41-1                                alpm                           
 p11-kit                                                                       0.25.10-2                               alpm                           
@@ -803,8 +803,8 @@ python-aaf2                                                                   1.
 python-xlib                                                                   0.33                                    python                         
 qca-qt6                                                                       2.3.10-4                                alpm                           
 qqc2-desktop-style                                                            6.19.0-1                                alpm                           
-qt6-5compat                                                                   6.10.0-1                                alpm                           
-qt6-base                                                                      6.10.0-2                                alpm                           
+qt6-5compat                                                                   6.10.0-2                                alpm                           
+qt6-base                                                                      6.10.0-3                                alpm                           
 qt6-declarative                                                               6.10.0-2                                alpm                           
 qt6-multimedia                                                                6.10.0-2                                alpm                           
 qt6-multimedia-ffmpeg                                                         6.10.0-2                                alpm                           
@@ -815,7 +815,7 @@ qt6-speech                                                                    6.
 qt6-svg                                                                       6.10.0-2                                alpm                           
 qt6-translations                                                              6.10.0-1                                alpm                           
 qt6-webchannel                                                                6.10.0-1                                alpm                           
-qt6-webengine                                                                 6.10.0-1                                alpm                           
+qt6-webengine                                                                 6.10.0-3                                alpm                           
 rav1e                                                                         0.8.1-2                                 alpm                           
 re2                                                                           1:20240702-7                            alpm                           
 readline                                                                      8.3.001-1                               alpm                           
