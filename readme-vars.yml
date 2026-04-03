@@ -103,6 +103,7 @@ init_diagram: |
   "kdenlive:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "29.03.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "22.09.25:", desc: "Rebase to Arch latest Appimage no longer working on Deb distros. Build for arm64 again."}
   - {date: "06.08.25:", desc: "Fix cpu bug, disable gamepad by default."}
