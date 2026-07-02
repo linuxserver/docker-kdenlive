@@ -400,7 +400,7 @@ k8s.io/cri-streaming                                                          v0
 k8s.io/klog/v2                                                                v2.140.0                                go-module     (+1 duplicate)   
 k8s.io/streaming                                                              v0.36.0                                 go-module                      
 k8s.io/utils                                                                  v0.0.0-20260319190234-28399d86e0b5      go-module     (+1 duplicate)   
-kaccounts-integration                                                         26.04.2-1                               alpm                           
+kaccounts-integration                                                         26.04.3-1                               alpm                           
 karchive                                                                      6.27.0-1                                alpm                           
 kbd                                                                           2.10.0-1                                alpm                           
 kbookmarks                                                                    6.27.0-1                                alpm                           
@@ -414,7 +414,7 @@ kcoreaddons                                                                   6.
 kcrash                                                                        6.27.0-1                                alpm                           
 kdbusaddons                                                                   6.27.0-1                                alpm                           
 kddockwidgets                                                                 2.4.0-3                                 alpm                           
-kdenlive                                                                      26.04.2-1                               alpm                           
+kdenlive                                                                      26.04.3-1                               alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.78                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.78                                 go-module                      
 keyutils                                                                      1.6.3-4                                 alpm                           
@@ -579,7 +579,7 @@ libubsan                                                                      16
 libunibreak                                                                   7.0-1                                   alpm                           
 libunistring                                                                  1.4.2-1                                 alpm                           
 libunwind                                                                     1.8.2-1                                 alpm                           
-liburing                                                                      2.14-1                                  alpm                           
+liburing                                                                      2.15-1                                  alpm                           
 libusb                                                                        1.0.30-1                                alpm                           
 libusbmuxd                                                                    2.1.1-2                                 alpm                           
 libutempter                                                                   1.2.3-1                                 alpm                           
@@ -671,7 +671,7 @@ oniguruma                                                                     6.
 openbox                                                                       3.6.1-14                                alpm                           
 openbsd-netcat                                                                1.238_1-1                               alpm                           
 opencore-amr                                                                  0.1.6-2                                 alpm                           
-opencv                                                                        4.13.0-11                               alpm                           
+opencv                                                                        4.13.0-12                               alpm                           
 opencv                                                                        4130                                    java-archive                   
 openexr                                                                       3.4.13-2                                alpm                           
 openh264                                                                      2.6.0-2                                 alpm                           
@@ -761,7 +761,7 @@ setuptools                                                                    82
 shaderc                                                                       2026.2-2                                alpm                           
 shadow                                                                        4.19.4.arch1-1                          alpm                           
 shared-mime-info                                                              2.4-3                                   alpm                           
-signon-kwallet-extension                                                      26.04.2-1                               alpm                           
+signon-kwallet-extension                                                      26.04.3-1                               alpm                           
 signon-plugin-oauth2                                                          0.25-4                                  alpm                           
 signon-ui                                                                     0.17+20231016-4                         alpm                           
 signond                                                                       8.61-4                                  alpm                           
