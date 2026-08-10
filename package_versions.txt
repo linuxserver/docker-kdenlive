@@ -611,7 +611,7 @@ libngtcp2                                                                     1.
 libnl                                                                         3.12.0-1                                alpm                           
 libnotify                                                                     0.8.8-1                                 alpm                           
 libnsl                                                                        2.0.1-2                                 alpm                           
-libnvme                                                                       1.16.2-1                                alpm                           
+libnvme                                                                       1.16.2-2                                alpm                           
 libobjc                                                                       16.1.1+r595+g171d15ac6959-1             alpm                           
 libogg                                                                        1.3.6-1                                 alpm                           
 libopenmpt                                                                    0.8.7-1                                 alpm                           
